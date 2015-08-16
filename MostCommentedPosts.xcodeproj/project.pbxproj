@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39FA0CF301135E9321411E59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE352544D573917B279ACFB8 /* libPods.a */; };
+		A36800021B8128BE0062219E /* YAMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A36800011B8128BE0062219E /* YAMFileManager.m */; };
+		A368FFF51B810F700062219E /* YAMImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A368FFF41B810F700062219E /* YAMImages.m */; };
+		A368FFF81B810F8F0062219E /* YAMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A368FFF71B810F8F0062219E /* YAMImage.m */; };
+		A368FFFB1B8114490062219E /* YAMComments.m in Sources */ = {isa = PBXBuildFile; fileRef = A368FFFA1B8114490062219E /* YAMComments.m */; };
+		A368FFFE1B8118BC0062219E /* YAMPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = A368FFFD1B8118BC0062219E /* YAMPagination.m */; };
+		A37FEC081B808641008B6C0E /* YAMAuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC071B808641008B6C0E /* YAMAuthenticationService.m */; };
+		A37FEC0E1B80892C008B6C0E /* YAMSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC0D1B80892C008B6C0E /* YAMSessionManager.m */; };
+		A37FEC151B808C35008B6C0E /* YAMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC141B808C35008B6C0E /* YAMUser.m */; };
+		A37FEC191B80B612008B6C0E /* YAMResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC181B80B612008B6C0E /* YAMResourceManager.m */; };
+		A37FEC1C1B80B8A7008B6C0E /* YAMCounts.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC1B1B80B8A7008B6C0E /* YAMCounts.m */; };
+		A37FEC201B80BCC0008B6C0E /* YAMInstagramManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC1F1B80BCC0008B6C0E /* YAMInstagramManager.m */; };
+		A37FEC231B80C8B7008B6C0E /* YAMComment.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC221B80C8B7008B6C0E /* YAMComment.m */; };
+		A37FEC261B810CE1008B6C0E /* YAMMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FEC251B810CE1008B6C0E /* YAMMedia.m */; };
 		A3A9BA0B1B806AA200D62B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA0A1B806AA200D62B63 /* main.m */; };
 		A3A9BA0E1B806AA200D62B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA0D1B806AA200D62B63 /* AppDelegate.m */; };
-		A3A9BA111B806AA200D62B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA101B806AA200D62B63 /* ViewController.m */; };
 		A3A9BA141B806AA200D62B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A9BA121B806AA200D62B63 /* Main.storyboard */; };
 		A3A9BA161B806AA200D62B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A9BA151B806AA200D62B63 /* Images.xcassets */; };
 		A3A9BA191B806AA200D62B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A9BA171B806AA200D62B63 /* LaunchScreen.xib */; };
 		A3A9BA251B806AA300D62B63 /* MostCommentedPostsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA241B806AA300D62B63 /* MostCommentedPostsTests.m */; };
+		A3A9BA331B806CE300D62B63 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA321B806CE300D62B63 /* Reachability.m */; };
+		A3A9BA371B806D0100D62B63 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9BA361B806D0100D62B63 /* MainViewController.m */; };
+		A3F53B371B8076AB00A045BE /* YAMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F53B361B8076AB00A045BE /* YAMConstants.m */; };
+		A3F53B3F1B807A6700A045BE /* YAMApiConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F53B3E1B807A6700A045BE /* YAMApiConfigurator.m */; };
+		A3F53B461B807C9300A045BE /* YAMCredentialStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F53B451B807C9300A045BE /* YAMCredentialStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +45,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2122590C183643DDB8BFAA0B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5828E11BDFE7849AD02BC7DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A36800001B8128BE0062219E /* YAMFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMFileManager.h; sourceTree = "<group>"; };
+		A36800011B8128BE0062219E /* YAMFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMFileManager.m; sourceTree = "<group>"; };
+		A368FFF31B810F700062219E /* YAMImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMImages.h; sourceTree = "<group>"; };
+		A368FFF41B810F700062219E /* YAMImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMImages.m; sourceTree = "<group>"; };
+		A368FFF61B810F8F0062219E /* YAMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMImage.h; sourceTree = "<group>"; };
+		A368FFF71B810F8F0062219E /* YAMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMImage.m; sourceTree = "<group>"; };
+		A368FFF91B8114490062219E /* YAMComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMComments.h; sourceTree = "<group>"; };
+		A368FFFA1B8114490062219E /* YAMComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMComments.m; sourceTree = "<group>"; };
+		A368FFFC1B8118BC0062219E /* YAMPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMPagination.h; sourceTree = "<group>"; };
+		A368FFFD1B8118BC0062219E /* YAMPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMPagination.m; sourceTree = "<group>"; };
+		A37FEC061B808641008B6C0E /* YAMAuthenticationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMAuthenticationService.h; sourceTree = "<group>"; };
+		A37FEC071B808641008B6C0E /* YAMAuthenticationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMAuthenticationService.m; sourceTree = "<group>"; };
+		A37FEC0C1B80892C008B6C0E /* YAMSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMSessionManager.h; sourceTree = "<group>"; };
+		A37FEC0D1B80892C008B6C0E /* YAMSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMSessionManager.m; sourceTree = "<group>"; };
+		A37FEC131B808C35008B6C0E /* YAMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMUser.h; sourceTree = "<group>"; };
+		A37FEC141B808C35008B6C0E /* YAMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMUser.m; sourceTree = "<group>"; };
+		A37FEC171B80B612008B6C0E /* YAMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMResourceManager.h; sourceTree = "<group>"; };
+		A37FEC181B80B612008B6C0E /* YAMResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMResourceManager.m; sourceTree = "<group>"; };
+		A37FEC1A1B80B8A7008B6C0E /* YAMCounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMCounts.h; sourceTree = "<group>"; };
+		A37FEC1B1B80B8A7008B6C0E /* YAMCounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMCounts.m; sourceTree = "<group>"; };
+		A37FEC1E1B80BCC0008B6C0E /* YAMInstagramManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMInstagramManager.h; sourceTree = "<group>"; };
+		A37FEC1F1B80BCC0008B6C0E /* YAMInstagramManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMInstagramManager.m; sourceTree = "<group>"; };
+		A37FEC211B80C8B7008B6C0E /* YAMComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMComment.h; sourceTree = "<group>"; };
+		A37FEC221B80C8B7008B6C0E /* YAMComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMComment.m; sourceTree = "<group>"; };
+		A37FEC241B810CE1008B6C0E /* YAMMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMMedia.h; sourceTree = "<group>"; };
+		A37FEC251B810CE1008B6C0E /* YAMMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMMedia.m; sourceTree = "<group>"; };
 		A3A9BA051B806AA200D62B63 /* MostCommentedPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostCommentedPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A9BA091B806AA200D62B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A9BA0A1B806AA200D62B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3A9BA0C1B806AA200D62B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3A9BA0D1B806AA200D62B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A3A9BA0F1B806AA200D62B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A3A9BA101B806AA200D62B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3A9BA131B806AA200D62B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3A9BA151B806AA200D62B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A3A9BA181B806AA200D62B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A3A9BA1E1B806AA300D62B63 /* MostCommentedPostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostCommentedPostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A9BA231B806AA300D62B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A9BA241B806AA300D62B63 /* MostCommentedPostsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MostCommentedPostsTests.m; sourceTree = "<group>"; };
+		A3A9BA2F1B806CB600D62B63 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A3A9BA321B806CE300D62B63 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A3A9BA351B806D0100D62B63 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A3A9BA361B806D0100D62B63 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A3F53B351B8076AB00A045BE /* YAMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMConstants.h; sourceTree = "<group>"; };
+		A3F53B361B8076AB00A045BE /* YAMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMConstants.m; sourceTree = "<group>"; };
+		A3F53B3C1B8078B900A045BE /* MostCommentedPosts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MostCommentedPosts-Prefix.pch"; sourceTree = "<group>"; };
+		A3F53B3D1B807A6700A045BE /* YAMApiConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMApiConfigurator.h; sourceTree = "<group>"; };
+		A3F53B3E1B807A6700A045BE /* YAMApiConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMApiConfigurator.m; sourceTree = "<group>"; };
+		A3F53B441B807C9300A045BE /* YAMCredentialStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMCredentialStorage.h; sourceTree = "<group>"; };
+		A3F53B451B807C9300A045BE /* YAMCredentialStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMCredentialStorage.m; sourceTree = "<group>"; };
+		CE352544D573917B279ACFB8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FA0CF301135E9321411E59 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +117,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018D511890A2B4BE7C08DC0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE352544D573917B279ACFB8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A368FFFF1B8128A30062219E /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A36800001B8128BE0062219E /* YAMFileManager.h */,
+				A36800011B8128BE0062219E /* YAMFileManager.m */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
+		A37FEC031B808504008B6C0E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC1D1B80BCA9008B6C0E /* YAMInstagramManager */,
+				A37FEC161B80B5F9008B6C0E /* ResourceManager */,
+				A37FEC0B1B808918008B6C0E /* YAMSessionManager */,
+				A37FEC051B808522008B6C0E /* AuthenticationService */,
+				A37FEC041B808513008B6C0E /* ApiConfigurator */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		A37FEC041B808513008B6C0E /* ApiConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				A3F53B3D1B807A6700A045BE /* YAMApiConfigurator.h */,
+				A3F53B3E1B807A6700A045BE /* YAMApiConfigurator.m */,
+			);
+			name = ApiConfigurator;
+			sourceTree = "<group>";
+		};
+		A37FEC051B808522008B6C0E /* AuthenticationService */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC061B808641008B6C0E /* YAMAuthenticationService.h */,
+				A37FEC071B808641008B6C0E /* YAMAuthenticationService.m */,
+			);
+			name = AuthenticationService;
+			sourceTree = "<group>";
+		};
+		A37FEC091B8087C3008B6C0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC0A1B8087C8008B6C0E /* Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A37FEC0A1B8087C8008B6C0E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC131B808C35008B6C0E /* YAMUser.h */,
+				A37FEC141B808C35008B6C0E /* YAMUser.m */,
+				A37FEC1A1B80B8A7008B6C0E /* YAMCounts.h */,
+				A37FEC1B1B80B8A7008B6C0E /* YAMCounts.m */,
+				A37FEC211B80C8B7008B6C0E /* YAMComment.h */,
+				A37FEC221B80C8B7008B6C0E /* YAMComment.m */,
+				A37FEC241B810CE1008B6C0E /* YAMMedia.h */,
+				A37FEC251B810CE1008B6C0E /* YAMMedia.m */,
+				A368FFF31B810F700062219E /* YAMImages.h */,
+				A368FFF41B810F700062219E /* YAMImages.m */,
+				A368FFF61B810F8F0062219E /* YAMImage.h */,
+				A368FFF71B810F8F0062219E /* YAMImage.m */,
+				A368FFF91B8114490062219E /* YAMComments.h */,
+				A368FFFA1B8114490062219E /* YAMComments.m */,
+				A368FFFC1B8118BC0062219E /* YAMPagination.h */,
+				A368FFFD1B8118BC0062219E /* YAMPagination.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A37FEC0B1B808918008B6C0E /* YAMSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC0C1B80892C008B6C0E /* YAMSessionManager.h */,
+				A37FEC0D1B80892C008B6C0E /* YAMSessionManager.m */,
+			);
+			name = YAMSessionManager;
+			sourceTree = "<group>";
+		};
+		A37FEC161B80B5F9008B6C0E /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC171B80B612008B6C0E /* YAMResourceManager.h */,
+				A37FEC181B80B612008B6C0E /* YAMResourceManager.m */,
+			);
+			name = ResourceManager;
+			sourceTree = "<group>";
+		};
+		A37FEC1D1B80BCA9008B6C0E /* YAMInstagramManager */ = {
+			isa = PBXGroup;
+			children = (
+				A37FEC1E1B80BCC0008B6C0E /* YAMInstagramManager.h */,
+				A37FEC1F1B80BCC0008B6C0E /* YAMInstagramManager.m */,
+			);
+			name = YAMInstagramManager;
+			sourceTree = "<group>";
+		};
 		A3A9B9FC1B806AA200D62B63 = {
 			isa = PBXGroup;
 			children = (
 				A3A9BA071B806AA200D62B63 /* MostCommentedPosts */,
 				A3A9BA211B806AA300D62B63 /* MostCommentedPostsTests */,
 				A3A9BA061B806AA200D62B63 /* Products */,
+				F22D9CC8DDCEE1079EB407FD /* Pods */,
+				018D511890A2B4BE7C08DC0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +245,10 @@
 		A3A9BA071B806AA200D62B63 /* MostCommentedPosts */ = {
 			isa = PBXGroup;
 			children = (
-				A3A9BA0C1B806AA200D62B63 /* AppDelegate.h */,
-				A3A9BA0D1B806AA200D62B63 /* AppDelegate.m */,
-				A3A9BA0F1B806AA200D62B63 /* ViewController.h */,
-				A3A9BA101B806AA200D62B63 /* ViewController.m */,
-				A3A9BA121B806AA200D62B63 /* Main.storyboard */,
-				A3A9BA151B806AA200D62B63 /* Images.xcassets */,
-				A3A9BA171B806AA200D62B63 /* LaunchScreen.xib */,
+				A37FEC091B8087C3008B6C0E /* Model */,
+				A3F53B381B8077AD00A045BE /* Classes */,
 				A3A9BA081B806AA200D62B63 /* Supporting Files */,
+				A3F53B331B80767500A045BE /* Resources */,
 			);
 			path = MostCommentedPosts;
 			sourceTree = "<group>";
@@ -98,6 +258,7 @@
 			children = (
 				A3A9BA091B806AA200D62B63 /* Info.plist */,
 				A3A9BA0A1B806AA200D62B63 /* main.m */,
+				A3F53B3C1B8078B900A045BE /* MostCommentedPosts-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +280,100 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3A9BA2E1B806C3E00D62B63 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3A9BA321B806CE300D62B63 /* Reachability.m */,
+				A3A9BA2F1B806CB600D62B63 /* Reachability.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A3A9BA341B806CE900D62B63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3A9BA351B806D0100D62B63 /* MainViewController.h */,
+				A3A9BA361B806D0100D62B63 /* MainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A3F53B331B80767500A045BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3A9BA151B806AA200D62B63 /* Images.xcassets */,
+				A3F53B341B80767D00A045BE /* Constants */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A3F53B341B80767D00A045BE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A3F53B351B8076AB00A045BE /* YAMConstants.h */,
+				A3F53B361B8076AB00A045BE /* YAMConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		A3F53B381B8077AD00A045BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3F53B391B8077C100A045BE /* Core */,
+				A3A9BA2E1B806C3E00D62B63 /* Helpers */,
+				A3F53B3B1B80782B00A045BE /* Managers */,
+				A3F53B3A1B8077DB00A045BE /* Presentation */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A3F53B391B8077C100A045BE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A3A9BA0C1B806AA200D62B63 /* AppDelegate.h */,
+				A3A9BA0D1B806AA200D62B63 /* AppDelegate.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A3F53B3A1B8077DB00A045BE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A3A9BA341B806CE900D62B63 /* ViewControllers */,
+				A3A9BA121B806AA200D62B63 /* Main.storyboard */,
+				A3A9BA171B806AA200D62B63 /* LaunchScreen.xib */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		A3F53B3B1B80782B00A045BE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A368FFFF1B8128A30062219E /* FileManager */,
+				A3F53B401B807C5600A045BE /* CredentialStorage */,
+				A37FEC031B808504008B6C0E /* Network */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		A3F53B401B807C5600A045BE /* CredentialStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A3F53B441B807C9300A045BE /* YAMCredentialStorage.h */,
+				A3F53B451B807C9300A045BE /* YAMCredentialStorage.m */,
+			);
+			name = CredentialStorage;
+			sourceTree = "<group>";
+		};
+		F22D9CC8DDCEE1079EB407FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2122590C183643DDB8BFAA0B /* Pods.debug.xcconfig */,
+				5828E11BDFE7849AD02BC7DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A9BA281B806AA300D62B63 /* Build configuration list for PBXNativeTarget "MostCommentedPosts" */;
 			buildPhases = (
+				B8BDC06936F26C23F9CE8360 /* Check Pods Manifest.lock */,
 				A3A9BA011B806AA200D62B63 /* Sources */,
 				A3A9BA021B806AA200D62B63 /* Frameworks */,
 				A3A9BA031B806AA200D62B63 /* Resources */,
+				5443CEC346518668366A566E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +471,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5443CEC346518668366A566E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BDC06936F26C23F9CE8360 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3A9BA011B806AA200D62B63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A9BA111B806AA200D62B63 /* ViewController.m in Sources */,
 				A3A9BA0E1B806AA200D62B63 /* AppDelegate.m in Sources */,
+				A37FEC191B80B612008B6C0E /* YAMResourceManager.m in Sources */,
+				A37FEC151B808C35008B6C0E /* YAMUser.m in Sources */,
+				A368FFF51B810F700062219E /* YAMImages.m in Sources */,
+				A37FEC0E1B80892C008B6C0E /* YAMSessionManager.m in Sources */,
+				A3F53B3F1B807A6700A045BE /* YAMApiConfigurator.m in Sources */,
+				A3A9BA331B806CE300D62B63 /* Reachability.m in Sources */,
+				A37FEC081B808641008B6C0E /* YAMAuthenticationService.m in Sources */,
 				A3A9BA0B1B806AA200D62B63 /* main.m in Sources */,
+				A3F53B371B8076AB00A045BE /* YAMConstants.m in Sources */,
+				A37FEC231B80C8B7008B6C0E /* YAMComment.m in Sources */,
+				A37FEC1C1B80B8A7008B6C0E /* YAMCounts.m in Sources */,
+				A3F53B461B807C9300A045BE /* YAMCredentialStorage.m in Sources */,
+				A36800021B8128BE0062219E /* YAMFileManager.m in Sources */,
+				A368FFFB1B8114490062219E /* YAMComments.m in Sources */,
+				A368FFF81B810F8F0062219E /* YAMImage.m in Sources */,
+				A37FEC261B810CE1008B6C0E /* YAMMedia.m in Sources */,
+				A37FEC201B80BCC0008B6C0E /* YAMInstagramManager.m in Sources */,
+				A368FFFE1B8118BC0062219E /* YAMPagination.m in Sources */,
+				A3A9BA371B806D0100D62B63 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +652,12 @@
 		};
 		A3A9BA291B806AA300D62B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2122590C183643DDB8BFAA0B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "MostCommentedPosts/MostCommentedPosts-Prefix.pch";
 				INFOPLIST_FILE = MostCommentedPosts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +665,12 @@
 		};
 		A3A9BA2A1B806AA300D62B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5828E11BDFE7849AD02BC7DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "MostCommentedPosts/MostCommentedPosts-Prefix.pch";
 				INFOPLIST_FILE = MostCommentedPosts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +729,7 @@
 				A3A9BA2A1B806AA300D62B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3A9BA2B1B806AA300D62B63 /* Build configuration list for PBXNativeTarget "MostCommentedPostsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +738,7 @@
 				A3A9BA2D1B806AA300D62B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
